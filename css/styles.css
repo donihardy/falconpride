@@ -1,0 +1,511 @@
+#bgimage {
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: auto;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 20px;
+	border-bottom: 2px solid cornflowerblue;
+}
+
+div.img-responsive {
+    padding-right: 0px;
+    margin-right: 0px;
+    padding-left: 0px;
+    margin-left: 0px;
+    margin-top: -20px;
+    width: 100%;
+}
+
+/*body > header {
+	width: 100%;
+}*/
+
+#LogoImg {
+	margin-bottom: 20px;
+	z-index: 100;
+	padding-left: 10px;
+	width: 100%;
+
+}
+
+
+
+p {
+	font-family: "Tahoma", Geneva, sans-serif;
+}
+
+a {
+	color: #c0c0c0;
+}
+
+a:focus {
+	color: white !important;
+}
+
+a:active {
+	color: orange !important;
+}
+
+a:visited {
+	color: rgba(160,160,160, .6) !important;
+}
+
+a:hover {
+	color: darkred !important;
+}
+
+.caret {
+	color: darkred ;
+}
+
+.active {
+	color: #92301f  !important;
+}
+
+.container-fluid {
+	margin-right: -15px;
+}
+
+.container {
+	margin-bottom: 40px;
+}
+
+/* #1 nav bar entire bar*/
+.navbar.navbar-inverse {
+	top: 0px;
+	/*background-color:  rgb(208, 46, 196);*/
+	background-color: darkblue;
+    border-radius: 0px;
+		border-color: cornflowerblue;
+		border-top: 0;
+    margin-bottom: 2px;
+		border-right: 0;
+		border-left: 0;
+    height: 100%;
+		margin-top: 0;
+		color: white;
+}
+
+.navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand {
+	margin-left: 10px;
+}
+
+/* navbar #1 school */
+.navbar-inverse .navbar-brand {
+	font-size: small;
+	font-weight: bold;
+	width: 100px;
+	/*background-color: rgb(45, 7, 119);*/
+	background-color: white;
+	color: darkred !important;
+}
+/*navbar #1 hover menu*/
+.navbar-inverse .dropdown {
+	/*background-color: rgb(208, 46, 196);*/
+	background-color: darkblue;
+}
+/* navbar #1 menu */
+.navbar-inverse .dropdown > a {
+	background-color: transparent;
+	color: white !important;
+}
+
+.navbar-inverse .navbar-nav > .open > a {
+	background-color: white !important;
+	color: gray !important;
+}
+/*navbar #1 pulldown menu */
+.navbar-inverse .dropdown-menu {
+	background-color: white;
+	color:  white !important;
+}
+
+/* change background color on hover menu #1 */
+.dropdown-submenu > a:focus, .dropdown-submenu > a:hover, .dropdown-submenu:focus > a, r, .dropdown-submenu:hover > a, .dropdown-menu > li a:hover, .dropdown-menu > li a:focus {
+	background-color: darkred  !important;
+	color: white !important;
+	background-image: none;
+	filter: none;
+	text-decoration: none;
+	border: 1px;
+	border-width: auto;
+}
+
+/* Webpage Name */
+.navbar .navbar-brand {
+	font-size: x-large;
+	font-weight: bold;
+	width: 240px;
+}
+
+.navbar-brand a {
+	vertical-align: middle;
+}
+
+.navbar-nav {
+	float: left;
+	background-color: rgba(141, 198, 63, .7);
+}
+
+.icon-bar {
+	background-color: cornflowerblue !important;
+}
+.breadcrumb {
+	background-color: transparent;
+    padding: 5px;
+    margin-bottom: 15px;
+    margin-left: 20px;
+}
+
+.breadcrumb a {
+	color: #c0c0c0;
+}
+
+.dropdown-submenu {
+	position: relative;
+}
+
+.dropdown-submenu > .dropdown-menu {
+	top: 0;
+	left: 100%;
+	margin-top: -6px;
+	margin-left: -1px;
+	-webkit-border-radius: 0 6px 6px 6px;
+	-moz-border-radius: 0 6px 6px 6px;
+	border-radius: 0 6px 6px 6px;
+	background-color: #E5E4E2;
+}
+.dropdown-submenu:hover > .dropdown-menu {
+	display: block;
+}
+
+.dropdown-submenu > a:after {
+	display: block;
+	content: " ";
+	float: right;
+	width: 0;
+	height: 0;
+	border-color: transparent;
+	border-style: solid;
+	border-width: 5px 0 5px 5px;
+	border-left-color: #cccccc;
+	margin-top: 5px;
+	margin-right: -10px;
+}
+
+.dropdown-submenu:hover > a:after {
+	border-left-color: #ffffff;
+}
+
+.dropdown-submenu .pull-left {
+	float: none;
+}
+
+.dropdown-menu > li > a {
+	color: #777;
+}
+
+.dropdown-submenu.pull-left > .dropdown-menu {
+	left: -100%;
+	margin-left: 10px;
+	-webkit-border-radius: 6px 0 6px 6px;
+	-moz-border-radius: 6px 0 6px 6px;
+	border-radius: 6px 0 6px 6px;
+}
+
+.root:hover > .dropdown-menu {
+	display: block;
+}
+
+div.container-fluid {
+	margin-right: 0px;
+	margin-left: 0px;
+}
+
+div.#myNavbar {
+	padding-left: 0px;
+}
+.textbody {
+	margin-top: -15px;
+	margin-left: 20px;
+	margin-bottom: 20px;
+	width: 100%;
+	position: absolute;
+	padding-bottom: 100px;
+	color: black;
+	height: auto;
+	/*z-index: 1;*/
+}
+
+.col-md-3 {
+	margin-right: 15px;
+}
+
+.col-md-6 {
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+
+.col-md-4 {
+	margin-bottom: 10px;
+	margin-right: 10px;
+}
+
+.col-md-12 {
+	padding-bottom: 20px;
+}
+
+.thingstodo, .galleryimages {
+	width: 250px;
+	height: 200px;
+	margin-bottom: 5px;
+	margin-right: 5px;
+}
+
+div.col-md-3 {
+	margin-bottom: 25px;
+	margin-right: 20px;
+}
+
+.gallery {
+	border-right: 1px solid #777;
+	padding-right: 30px;
+	margin-bottom: 10px;
+}
+
+div.col-md-4.caption {
+	font-weight: bold;
+	font-size: 1.5em;
+	margin-bottom: 5px;
+}
+
+.t3 {
+	width: inherit;
+	height: 200px;
+	margin-top: 15px;
+}
+
+.quiltimagesv  {
+	width: 200px;
+	height: 250px;
+	padding-bottom: 15px;
+	padding-right: 15px
+}
+
+.quiltimagesh  {
+	width: 200px;
+	height: 150px;
+	padding-bottom: 15px;
+	padding-right: 15px;
+}
+
+.col-sm-6 {
+	padding-top: 15px;
+	height: 250px;
+	width: 200px;
+	margin:0 5px 5px 0;
+	margin-bottom: 20px;
+}
+
+.col-lg-12 {
+	height: 300px;
+	width: 300px;
+}
+
+
+h4 {
+	font-style:italic;
+	font-weight: bold;
+	margin-bottom: -.5em;
+}
+
+h5 {
+	font-style:italic;
+	font-weight: lighter;
+}
+
+.title3 {
+	color: cornflowerblue;
+}
+
+
+/*Begin homepage*/
+
+div.col-xs-4 {
+	padding-right: 1px;
+	margin: 0px;
+	width: 175px;
+	height: 175px;
+}
+
+/*end homepage*/
+
+
+.navbar-fixed-bottom {
+	margin-bottom: 0px;
+	width: 100%;
+	z-index: 1;
+}
+
+body > table > tbody > tr > td > center > table > tbody > tr > th, body > table > tbody > tr > td > center > table > tbody > tr > td {
+	padding-left: 5px;
+}
+
+.glyphicon {
+	color: rgb(141, 198,63);
+	border-color: rgb(141, 198,63);
+	font-size: 2.2em;
+	vertical-align: middle;
+}
+
+.button .btn .btn-default {
+	border-color: white;
+}
+
+html body nav.navbar.navbar-inverse div.container-fluid div.navbar-header button.navbar-toggle {
+	background-color: white;
+	border-color: rgb(141, 198,63);
+}
+
+#footer {
+	display: table;
+	clear: both;
+	border-top: 10px;
+	width: 100%;
+	height: 50px;
+
+	/*position: absolute;*/
+	color: white;
+	left: 0px;
+}
+
+#footer a > , #footer > a:hover {
+	color: white !important;
+}
+
+#footerContent {
+    display: table;
+    width: inherit;
+    height: inherit;
+    background-color: darkblue ;
+    margin-top: 0;
+    border-top: solid cornflowerblue 2px;
+}
+
+#leftFooter {
+	display: table-cell;
+	color: white;
+	text-align: left;
+	vertical-align: middle;
+	padding-left: 20px;
+	padding-bottom: 10px;
+	font-size: 12px;
+}
+
+#rightFooter {
+	display: table-cell;
+	color: white;
+	vertical-align: middle;
+	text-align: right;
+	padding-right: 40px;
+	font-size: 12px;
+	width: 100%;
+	margin-right: 10px;
+}
+
+@media screen and (max-width: 991px) {
+.gallery {
+	border-right: none;
+}
+}
+
+@media screen and (max-width: 768px) {
+
+
+img#PortfolioImg {
+	height: auto;
+	width: 50%;
+}
+
+.caret {
+	color: darkred;
+}
+
+body {
+	padding-bottom: 65px;
+}
+
+.textbody {
+	margin-left: 10px;
+	width: auto;
+	background-size: auto;
+	position: static;
+	padding: 10px;
+	height: auto;
+	float: left;
+	display: inline;
+	}
+
+	div.col-md-4.caption {
+		padding-bottom: 40px;
+	}
+
+div.displaypics {
+	margin-left: -15px;
+}
+
+#leftFooter, #leftFooter >h4, #leftFooter >h4 >a , #leftFooter >a >h5, #rightFooter, #footerContent  {
+	height: auto;
+	background-color: darkblue;
+	font-size: 11px;
+	margin: 0;
+	padding-top: 5px;
+}
+.col-sm-4 {
+	padding-top: 15px;
+	height: 400px;
+	width: 100%;
+	margin:0 5px 5px 0;
+}
+
+.col-md-6 {
+	margin-left: 15px;
+	margin-right: -25px;
+	padding: 5px 15px 5px 15px;
+}
+
+.col-md-4 {
+	margin-left: 15px;
+	padding-left: 15px;
+}
+
+img#PortfolioImg {
+	height: 50%;
+	width: auto;
+	display: inline-block;
+}
+
+}
+
+@media screen and (max-width: 480px) {
+
+body {
+	padding-bottom: 75px;
+}
+
+.col-sm-4 {
+	padding-top: 15px;
+	height: 400px;
+	width: 100%;
+	margin:0 5px 5px 0;
+}
+}
+@media screen and (max-width: 250px) {
+
+body {
+	padding-bottom: 89px;
+}
+}
