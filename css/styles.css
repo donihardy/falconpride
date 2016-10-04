@@ -19,10 +19,6 @@ div.img-responsive {
     width: 100%;
 }
 
-/*body > header {
-	width: 100%;
-}*/
-
 #LogoImg {
 	margin-bottom: 20px;
 	z-index: 100;
@@ -77,7 +73,7 @@ a:hover {
 .navbar.navbar-inverse {
 	top: 0px;
 	/*background-color:  rgb(208, 46, 196);*/
-	background-color: darkblue;
+	background-color: #061126;
     border-radius: 0px;
 		border-color: cornflowerblue;
 		border-top: 0;
@@ -104,8 +100,7 @@ a:hover {
 }
 /*navbar #1 hover menu*/
 .navbar-inverse .dropdown {
-	/*background-color: rgb(208, 46, 196);*/
-	background-color: darkblue;
+	background-color: #061126;
 }
 /* navbar #1 menu */
 .navbar-inverse .dropdown > a {
@@ -237,7 +232,6 @@ div.#myNavbar {
 	padding-bottom: 100px;
 	color: black;
 	height: auto;
-	/*z-index: 1;*/
 }
 
 .col-md-3 {
@@ -390,7 +384,7 @@ html body nav.navbar.navbar-inverse div.container-fluid div.navbar-header button
     display: table;
     width: inherit;
     height: inherit;
-    background-color: darkblue ;
+    background-color: #061126 ;
     margin-top: 0;
     border-top: solid cornflowerblue 2px;
 }
@@ -459,7 +453,7 @@ div.displaypics {
 
 #leftFooter, #leftFooter >h4, #leftFooter >h4 >a , #leftFooter >a >h5, #rightFooter, #footerContent  {
 	height: auto;
-	background-color: darkblue;
+	background-color: #061126;
 	font-size: 11px;
 	margin: 0;
 	padding-top: 5px;
